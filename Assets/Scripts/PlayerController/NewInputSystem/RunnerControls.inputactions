@@ -1,0 +1,109 @@
+{
+    "name": "RunnerControls",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "a8a6477a-aee5-4db6-a589-063364c485a2",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "c3a7ab3c-f923-453c-b813-ea7229db038c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SideMove",
+                    "type": "Button",
+                    "id": "3c7d6ac6-3c84-4256-a49e-e65eb25e397b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "dfa2bf94-98c2-4e62-85cc-b04d6ed76e57",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "c5a44be7-12a6-45b4-b5ae-17e009024f1f",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SideMove",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "00b7e0d7-ea12-4b3c-bdaf-98ae8e172b49",
+                    "path": "<Keyboard>/#(Ф)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SideMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "a69eebba-dac9-412f-bc2b-77537af447dc",
+                    "path": "<Keyboard>/#(В)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SideMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "89c23391-8b05-4d00-8a7f-b85161a4956c",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SideMove",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "2fef29cb-2c11-468a-a657-7ea8a0873c57",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SideMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "477be4b8-0bdf-4673-9ccc-1504a1773f8f",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SideMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
