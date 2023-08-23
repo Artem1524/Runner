@@ -31,3 +31,13 @@
 В сцене добавлен счетчик пройденных блоков для оценки прогресса игрока.
 
 Реализован дополнительный вид препятствий, которые перемещаются между двумя точками.
+
+## Скриншоты
+
+<img src="https://github.com/Artem1524/Runner/blob/master/1.png"/>
+
+<img src="https://github.com/Artem1524/Runner/blob/master/2.png"/>
+
+<img src="https://github.com/Artem1524/Runner/blob/master/3.png"/>
+
+<img src="https://github.com/Artem1524/Runner/blob/master/4.png"/>
